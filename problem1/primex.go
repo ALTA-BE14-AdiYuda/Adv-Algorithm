@@ -52,4 +52,5 @@ func main() {
 	fmt.Println(PrimeX(8))  //19
 	fmt.Println(PrimeX(9))  //23
 	fmt.Println(PrimeX(10)) //29
+
 }

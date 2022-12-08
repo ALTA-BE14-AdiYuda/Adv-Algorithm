@@ -2,8 +2,29 @@ package main
 
 import "fmt"
 
+func PrimeX(number int) int {
+	var bilangan = 1
+	var res = 0
+	for number > 0 {
+		if Prime(bilangan) {
+			res = bilangan
+			number--
+		}
+		bilangan++
+	}
+	return res
+}
 func PrimaSegiEmpat(wide, high, start int) string {
+	var luas = wide * high
+	var ress string
+	var b = 
 
+	for i := 0; i < len(luas); i-- {
+		for j := 2; j <= start; j++ {
+			j == PrimeX(ress)
+		}
+	}
+	return ress
 }
 
 func main() {
